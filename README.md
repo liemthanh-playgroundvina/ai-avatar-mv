@@ -34,4 +34,4 @@ make start
 ```
 
 ## Config:
-inference_steps: 15 (./configs/inference/default.yaml)
+inference_steps: 20 (./configs/inference/default.yaml)

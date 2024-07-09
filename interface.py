@@ -27,7 +27,7 @@ def avatar_mv(image: str, audio: str):
 
     output_dir = ".cache"
 
-    if output['error']:
+    if "error" in output:
         if output['error']['type'] == "ValueError":
             raise ValueError(output['error']['message'])
         elif output['error']['type'] == "Exception":
